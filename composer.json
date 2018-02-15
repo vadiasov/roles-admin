@@ -1,7 +1,7 @@
 {
     "name": "vadiasov/roles-admin",
     "description": "Package creates plain Roles and serves for CRUD operations of Roles in administrative panel",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
