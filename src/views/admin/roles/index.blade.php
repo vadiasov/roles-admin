@@ -79,6 +79,7 @@
                                     <th>Name</th>
                                     <th>Slug</th>
                                     <th>Created At</th>
+                                    <th>Updated At</th>
                                     <th>Actions</th>
                                 </tr>
                                 </tfoot>
