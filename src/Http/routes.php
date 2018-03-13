@@ -8,7 +8,7 @@
  */
 
 // src/Http/routes.php
-Route::group(['middleware' => ['web']], function () {
+Route::group(['middleware' => ['web', 'admin']], function () {
     Route::get('admin/roles', 'Vadiasov\RolesAdmin\Http\RolesController@index')->name('admin/roles');
     Route::get('admin/roles/create', 'Vadiasov\RolesAdmin\Http\RolesController@create')->name('admin/roles/create');
     Route::post('admin/roles/create', 'Vadiasov\RolesAdmin\Http\RolesController@store');
